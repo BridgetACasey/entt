@@ -8,13 +8,14 @@ project "ENTT"
 
 	files
 	{
-		"src/**.h",
+		"single_include/**.hpp",
 		"src/**.hpp",
 		"src/**.cpp"
 	}
 
 	includedirs
 	{
+		"single_include",
 		"src"
 	}
 

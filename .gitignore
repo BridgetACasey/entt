@@ -11,3 +11,15 @@ cpp.hint
 
 # Bazel
 /bazel-*
+
+#Binaries
+/.vs
+build/
+build-int/
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
